@@ -486,7 +486,8 @@ def succeed(images, response, header):
     return {
         'images': [''],
         'parameters': parameters,
-        'info': ''
+        'info': '',
+        'task_type': header['task']
     }
 
 
